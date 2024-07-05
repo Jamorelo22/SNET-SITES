@@ -8,8 +8,8 @@
         max-w-screen-xl;
     }
     .button{
-        @apply bg-orange-400 
-        text-black
+        @apply bg-red-700
+        text-white
         block 
         w-max
         py-4 
