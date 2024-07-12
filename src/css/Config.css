@@ -17,4 +17,20 @@
         rounded-full
     }
 
+    .hover-option-menu{
+        @apply text-white 
+        text-lg 
+        font-bold
+        hover:text-orange-400 
+        transition-all duration-300
+    }
+
+    .hover-option{
+        @apply text-black 
+        text-lg 
+        font-bold
+        hover:text-orange-400 
+        transition-all duration-300
+    }
+
 }

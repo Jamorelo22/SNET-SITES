@@ -1,6 +1,6 @@
 ---
-import Footer from '../pages/Footer.astro';
-import Header from '../pages/Header.astro';
+import Footer from "../pages/Footer.astro";
+import Header from "../pages/Header.astro";
 
 interface Props {
   title: string;
@@ -21,14 +21,16 @@ const { title } = Astro.props;
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
-    <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
-    <link rel="stylesheet"  href="./src/CSS/Style.css"
-    />
+    <script
+      is:inline
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"
+    ></script>
+    <link rel="stylesheet" href="./src/CSS/Style.css" />
     <title>{title}</title>
   </head>
   <body>
     <main>
-      <Header/>
+      <Header />
       <slot />
     </main>
     <Footer />
