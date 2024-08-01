@@ -1,12 +1,59 @@
 ---
+import Banner from "../components/Banner.astro";
 import Layout from "../layouts/Layout.astro";
-import Banner from "./Banner.astro";
 import Blog from "./Blog.astro";
-import PFC from "./PFC.astro";
+import Card from "../components/Card.astro";
+import EnlacesInteres from "../components/EnlacesInteres.astro";
 ---
 
-<Layout title="SNET-SITES">
-    <Banner /> 
-    <Blog />
-    <PFC />
+<Layout title="Principal-Sites">
+  <section>
+    <Banner client:load />
+  </section>
+  <main>
+
+    <section>
+      <slot  />
+    </section>
+
+    <section>
+      <Blog />
+    </section>
+
+    <section style="background-image: url('/src/images/fondo.svg');">
+      <div class="bg-cover bg-center h-full">
+      <div class="grid gap-2 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0">
+        
+        <Card
+        title="Educación Preescolar"
+        body="Urna pellentesque faucibus lorem justo non vel efficitur sapien bibendum imperdiet tempor"
+        href="/"
+        />
+        
+        <Card
+        title="Educación Primaria"
+        body="Urna pellentesque faucibus lorem justo non vel efficitur sapien bibendum imperdiet tempor"
+        href="/"
+        />
+        
+        <Card
+        title="Educación Secundaria"
+        body="Urna pellentesque faucibus lorem justo non vel efficitur sapien bibendum imperdiet tempor"
+        href="/"
+        />
+        
+        <Card
+        title="Media y Formación Complentaria (PFC)"
+        body="Urna pellentesque faucibus lorem justo non vel efficitur sapien bibendum imperdiet tempor"
+        href="/"
+        />
+      </div>
+      <EnlacesInteres/>
+    </div>
+  </section>
+    </section>
+    <section>
+    </section>
+
+    </main>
 </Layout>

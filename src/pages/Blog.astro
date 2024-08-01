@@ -1,29 +1,36 @@
+---
+  import Layout from "../layouts/Layout.astro"
+const optionsMatriculas = [
+{ name: 'Programa de Formación Complementaria – PFC', link: 'PFC' },
+{ name: 'Admisiones', link: '/institucion' },
+{ name: 'Requisitos de Matrícula', link: '/comunidad' },
+]
 
+---
 
-
-<div class="bg-white  flex   items-center pt-20">
+  <div class="flex   items-center px-10 pt-12">
     <div class="w-full md:w-1/2  content-center mx-auto max-w-2xl hidden md:block ">
       <img class="rounded-3xl shadow-2xl " src="https://ieenormalsuperiormm.edu.co/wp-content/uploads/2024/02/IEE-MAGDALENA-MEDIO-48.jpg" alt="IEE Magdalena Medio">
     </div>
-
+    
     <div class="mx-auto max-w-2xl  lg:px-8">
-
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">Bienvenido a nuestra Institución</h2>
         <br>
         <p class="mt-2 text-lg text-justify  text-gray-600">Nos consideramos una gran familia educativa comprometida con el desarrollo de cada uno de nuestros estudiantes y con su éxito académico y personal. Creemos en la participación y corresponsabilidad como pilares fundamentales para lograr una formación sólida y enriquecedora. Por eso, trabajamos en estrecha colaboración con nuestros directivos, docentes, padres de familia, estudiantes y personal administrativo para garantizar una educación de calidad.</p>
       </div>
-
+      
       <div class="mx-auto  pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-3">
         <ul>
-          <li class="hover-option"><a href="./src/pages/PFC.astro"><i class="fa-solid fa-check"></i> <strong>Programa de Formación Complementaria – PFC</strong></a></li>
-          <li class="hover-option"><i class="fa-solid fa-check"></i> <strong>Admisiones</strong></li>
-          <li class="hover-option"><i class="fa-solid fa-check"></i> <strong>Requisitos de Matrícula</strong></li>
+          {
+            optionsMatriculas.map((option) => (
+              <li class="hover-option">
+              <a href={option.link}><i class="fa-solid fa-check"></i>{option.name}</a>
+            </li>)
+        )}
         </ul>
       </div>
-
+      
     </div>
-
+    
   </div>
-
-  

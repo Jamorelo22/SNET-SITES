@@ -4,8 +4,9 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage:{
-				"close-menu":"url('src/images/icon-close.svg')",
-				"open-menu":"url('src/images/icon-hamburger.svg')",
+				"close-menu":"url('/Img/icon-close.svg')",
+				"open-menu":"url('/Img/icon-hamburger.svg')",
+				"fondo":"url('/Img/fondo.svg')",
 			}
 		},
 	},

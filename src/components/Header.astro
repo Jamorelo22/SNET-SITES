@@ -1,0 +1,34 @@
+---
+const optionsMenu = [
+  { name: 'Inicio', link: '/' },
+  { name: 'Institucion', link: '/Institucion' },
+  { name: 'Comunidad', link: '/Comunidad' },
+  { name: 'Matrícula', link: '/Matricula' },
+  { name: 'Proyectos', link: '/proyectos' },
+  { name: 'Galeria', link: '/Galeria' },
+]
+---
+
+<header>
+    <nav class="z-10 fixed inset-0 wrapper h-20  py-9 flex items-center justify-between bg-none  md:bg-gradient-to-b  from-black/85 to-red-800">
+      <a href="./" class="w-1/3 max-w-[230px]">
+        <img src="https://ieenormalsuperiormm.edu.co/wp-content/uploads/2024/02/NORMAL.png" alt="logo institución"/>
+      </a>
+        <input type="checkbox" id="menu" class="peer hidden ">
+        <label for="menu" class="bg-open-menu w-6 h-5 bg-cover bg-center cursor-pointer peer-checked:bg-close-menu transition-all z-50 md:hidden"></label>
+
+      <div class="fixed inset-0 bg-gradient-to-b  from-black/85 to-red-800 translate-x-full peer-checked:translate-x-0 transition-transform z-40 md:static md:bg-none md:translate-x-0">
+        
+        <ul class="absolute inset-x-0 top-24 p-12   w-[90%] mx-auto rounded-md h-max text-center grid gap-6 font-bold text-dark-blue shadow-2xl md:w-max md:p-0 md:grid-flow-col md:static">
+
+          { optionsMenu.map((option) => (
+              <li class="hover-option-menu">
+                <a href={option.link}>{option.name}</a>
+              </li>)
+          )}
+          
+        </ul>
+      </div>
+      <a href="Contactenos" class="button hover:bg-red-600   shadow-sm shadow-black/100 hidden lg:block">Contáctenos</a>
+    </nav>
+  </header>
