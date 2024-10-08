@@ -1,8 +1,16 @@
 ---
-import Layout from "../layouts/Layout.astro" 
---- 
+import Layout from "../layouts/Layout.astro";
+import Post_Matricula from "../components/data/Post_Matricula.astro";
+---
 
+<Layout title="Matricula" >
+    <section>
+        <div class="md:bg-gradient-to-b  from-blue-800/85 to-blue-950 rounded-br-[10%] md:h-[35vh]  flex justify-center items-center">
+            <h1 class="mx-auto font-bold text-6xl text-white">Matrícula</h1>
+        </div>
+    </section>
+    <section class="px-0 md:px-10">
+       <Post_Matricula/>
+    </section>
 
-<Layout title="Matricula">
-    <h1>Pagina Matricula</h1>
 </Layout>

@@ -1,7 +1,15 @@
 ---
 const response = await fetch("http://localhost:3000/publicaciones");
 let DATA = await response.json();
+DATA = DATA.slice(0, 4);
 ---
+<div>
+  <h1 class="title">Nuestras Publicaciones</h1>
+  <p class="parrafo">
+    Mantente informado de los últimos comunicados, acuerdos y decisiones de la
+    comunidad educativa.
+  </p>
+</div>
 
 <div class="md:p-10 place-content-center flex  flex-wrap gap-6">
   {
@@ -10,7 +18,7 @@ let DATA = await response.json();
         <img class="w-full p-4 rounded-md h-49 object-cover" src="https://via.placeholder.com/600x400" alt="Profile Image">
         <div class="p-6 hover:text-white ">
           <h2 class="text-2xl font-bold">{proyecto.title}</h2>
-          <p class="mt-5">{proyecto.descripcion}</p>
+          <p class="mt-5">{proyecto.body}</p>
           <div class="flex items-center mt-4">
             <a
       href={`/publicaciones/${proyecto.id}`}
@@ -27,4 +35,16 @@ let DATA = await response.json();
     ))
   }
 </div>
+  <div class="flex justify-center mt-4">
+    <a
+      href="/proyectos"
+        class="py-1.5 px-4  font-bold rounded-full border- shadow-md shadow-black  border-4  bg-red-700 text-white hover:bg-red-950  items-center justify-center flex w-fit"
+        type="button"
+      >
+        
+        VER MÁS PUBLICACIONES
+        
 
+    </a>
+   
+  </div>

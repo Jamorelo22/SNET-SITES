@@ -1,14 +1,15 @@
 ---
 import Banner from "../components/Banner.astro";
-import Layout from "../layouts/Layout.astro";
-import Blog from "./Blog.astro";
-import Card from "../components/Card.astro";
 import EnlacesInteres from "../components/EnlacesInteres.astro";
+import Publicaciones from "../components/Publicaciones.astro";
+import TiposDeEducacion from "../components/data/TiposDeEducacion.astro";
+import Layout from "../layouts/Layout.astro";
+import Blog from "../components/Blog.astro";
 ---
 
 <Layout title="Principal-Sites">
   <section>
-    <Banner client:load />
+    <Banner />
   </section>
   <main>
 
@@ -20,40 +21,14 @@ import EnlacesInteres from "../components/EnlacesInteres.astro";
       <Blog />
     </section>
 
-    <section style="background-image: url('/src/images/fondo.svg');">
-      <div class="bg-cover bg-center h-full">
-      <div class="grid gap-2 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0">
-        
-        <Card
-        title="Educación Preescolar"
-        body="Urna pellentesque faucibus lorem justo non vel efficitur sapien bibendum imperdiet tempor"
-        href="/"
-        />
-        
-        <Card
-        title="Educación Primaria"
-        body="Urna pellentesque faucibus lorem justo non vel efficitur sapien bibendum imperdiet tempor"
-        href="/"
-        />
-        
-        <Card
-        title="Educación Secundaria"
-        body="Urna pellentesque faucibus lorem justo non vel efficitur sapien bibendum imperdiet tempor"
-        href="/"
-        />
-        
-        <Card
-        title="Media y Formación Complentaria (PFC)"
-        body="Urna pellentesque faucibus lorem justo non vel efficitur sapien bibendum imperdiet tempor"
-        href="/"
-        />
-      </div>
+    <section class="py-5 " style="background-image: url('/src/images/fondo.svg');">
+      <TiposDeEducacion/>
       <EnlacesInteres/>
-    </div>
   </section>
-    </section>
-    <section>
-    </section>
+
+  <section>
+    <Publicaciones/>
+  </section>
 
     </main>
 </Layout>

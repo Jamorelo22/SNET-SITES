@@ -1,0 +1,203 @@
+{
+    "optionsMenu": [
+        {
+            "id": 1,
+            "name": "Inicio",
+            "link": "/"
+        },
+        {
+            "id": 2,
+            "name": "Institución",
+            "link": "/institucion"
+        },
+        {
+            "id": 3,
+            "name": "Comunidad",
+            "link": "/comunidad"
+        },
+        {
+            "id": 4,
+            "name": "Matrícula",
+            "link": "/matricula"
+        },
+        {
+            "id": 5,
+            "name": "Proyectos",
+            "link": "/proyectos"
+        },
+        {
+            "id": 6,
+            "name": "Galería",
+            "link": "/institucion"
+        }
+    ],
+    "data_enlacesInteres": [
+        {
+            "id": 1,
+            "title": "Media y Formación Complementaria (PFC)",
+            "body": "En esta sección, encontrarás información detallada sobre el Programa de Formación Complementaria (PFC), que ofrece una serie de cursos y actividades diseñadas para complementar la formación académica tradicional y proporcionar habilidades adicionales relevantes para el desarrollo profesional.",
+            "href": "/"
+        },
+        {
+            "id": 2,
+            "title": "Educación Secundaria",
+            "body": "Aquí se detallan los aspectos clave de nuestro programa de Educación Secundaria, incluyendo el currículo, las metodologías de enseñanza, y las oportunidades extracurriculares que brindan a los estudiantes una formación integral y preparan para la educación superior.",
+            "href": "/"
+        },
+        {
+            "id": 3,
+            "title": "Educación Primaria",
+            "body": "Esta sección proporciona una visión completa del programa de Educación Primaria, abarcando desde el enfoque pedagógico hasta los recursos y actividades que apoyan el aprendizaje en los primeros años de desarrollo académico y personal de los niños.",
+            "href": "/"
+        },
+        {
+            "id": 4,
+            "title": "Educación Preescolar",
+            "body": "Conoce todos los detalles sobre nuestro programa de Educación Preescolar, incluyendo las metodologías utilizadas para fomentar el aprendizaje temprano y el desarrollo social y emocional de los niños en sus primeros años.",
+            "href": "/"
+        }
+    ],
+    "data_matriculas": [
+        {
+            "id": 1,
+            "name": "Programa de Formación Complementaria – PFC",
+            "link": "PFC"
+        },
+        {
+            "id": 2,
+            "name": "Admisiones",
+            "link": "/Institucion"
+        },
+        {
+            "id": 3,
+            "name": "Requisitos de Matrícula",
+            "link": "/Comunidad"
+        }
+    ],
+    "enlaces": [
+        {
+            "id": 1,
+            "img": "https://ieenormalsuperiormm.edu.co/wp-content/uploads/2024/02/SINAI-300-140.png",
+            "href": "https://sinai.net.co/Web/Default.aspx?ReturnUrl=%2f"
+        },
+        {
+            "id": 2,
+            "img": "https://ieenormalsuperiormm.edu.co/wp-content/uploads/2024/02/SIMAT-300-140.png",
+            "href": "https://sinai.net.co/Web/Default.aspx?ReturnUrl=%2f"
+        },
+        {
+            "id": 3,
+            "img": "https://ieenormalsuperiormm.edu.co/wp-content/uploads/2024/02/RECALH-300-140.png",
+            "href": "https://sinai.net.co/Web/Default.aspx?ReturnUrl=%2f"
+        },
+        {
+            "id": 4,
+            "img": "https://ieenormalsuperiormm.edu.co/wp-content/uploads/2024/02/ICFES-300-140.png",
+            "href": "https://sinai.net.co/Web/Default.aspx?ReturnUrl=%2f"
+        }
+    ],
+
+    "publicaciones": [
+        {
+            "userId": 1,
+            "id": 1,
+            "title": "Anuncio de nueva iniciativa comunitaria",
+            "fechaPublicacion": "2024-08-20",
+            "descripcion": "Nos complace anunciar una nueva iniciativa para mejorar la calidad de vida en nuestra comunidad.",
+            "body": "Nos complace anunciar una nueva iniciativa destinada a mejorar la calidad de vida en nuestra comunidad. Este proyecto tiene como objetivo principal abordar las necesidades más urgentes de nuestra población, tales como la salud, la educación y la infraestructura. Invitamos a todos los miembros de la comunidad a unirse y participar activamente en este proyecto, que beneficiará a muchos y ayudará a construir un entorno más fuerte y solidario. Su participación es clave para el éxito de esta iniciativa."
+        },
+        {
+            "userId": 1,
+            "id": 2,
+            "title": "Taller de capacitación para jóvenes emprendedores",
+            "fechaPublicacion": "2024-08-18",
+            "descripcion": "Estamos organizando un taller de capacitación dirigido a jóvenes interesados en iniciar sus propios negocios.",
+            "body": "En un esfuerzo por fomentar el espíritu emprendedor entre los jóvenes de nuestra comunidad, estamos organizando un taller de capacitación que ofrecerá orientación y recursos esenciales para aquellos interesados en iniciar sus propios negocios. El taller incluirá sesiones sobre planificación empresarial, estrategias de financiamiento, marketing digital y la creación de redes profesionales. Este evento es una excelente oportunidad para que los jóvenes adquieran conocimientos prácticos y se conecten con mentores experimentados."
+        },
+        {
+            "userId": 1,
+            "id": 3,
+            "title": "Reunión informativa sobre programas de apoyo social",
+            "fechaPublicacion": "2024-08-15",
+            "descripcion": "Este jueves se llevará a cabo una reunión informativa sobre los diversos programas de apoyo social disponibles.",
+            "body": "Invitamos a todos los interesados a asistir a una reunión informativa que se llevará a cabo este jueves, donde se presentarán los diversos programas de apoyo social disponibles para nuestra comunidad. Estos programas están diseñados para proporcionar asistencia en áreas como alimentación, vivienda, educación y salud. Durante la reunión, se ofrecerá información detallada sobre cómo acceder a estos recursos y cómo pueden beneficiar a usted y a su familia."
+        },
+        {
+            "userId": 1,
+            "id": 4,
+            "title": "Convocatoria para voluntarios en el evento anual de limpieza",
+            "fechaPublicacion": "2024-08-12",
+            "descripcion": "Únase a nosotros en nuestro evento anual de limpieza comunitaria.",
+            "body": "Estamos en la búsqueda de voluntarios comprometidos para unirse a nuestro evento anual de limpieza comunitaria. Este evento tiene como objetivo mantener nuestras áreas públicas limpias y seguras, y promover un entorno saludable para todos los residentes. Es una excelente oportunidad para contribuir al bienestar de nuestra comunidad, conocer a otros vecinos comprometidos y disfrutar de una jornada de trabajo en equipo. ¡Tu ayuda es fundamental para el éxito de esta actividad!"
+        },
+        {
+            "userId": 1,
+            "id": 5,
+            "title": "Foro abierto sobre el futuro de la educación",
+            "fechaPublicacion": "2024-08-10",
+            "descripcion": "Participe en nuestro foro abierto donde discutiremos el futuro de la educación en nuestra región.",
+            "body": "Estamos organizando un foro abierto donde se debatirá el futuro de la educación en nuestra región. Este foro es una plataforma para que todos los miembros de la comunidad, incluidos padres, estudiantes, educadores y responsables políticos, compartan sus ideas y preocupaciones sobre el sistema educativo actual. Las discusiones se centrarán en los desafíos y oportunidades que enfrentamos, y en cómo podemos trabajar juntos para mejorar la calidad de la educación y asegurar un futuro brillante para nuestros jóvenes."
+        },
+        {
+            "userId": 1,
+            "id": 6,
+            "title": "Lanzamiento de la campaña de salud preventiva",
+            "fechaPublicacion": "2024-08-08",
+            "descripcion": "Estamos lanzando una campaña de salud preventiva enfocada en la detección temprana de enfermedades.",
+            "body": "Con el objetivo de crear una comunidad más saludable, estamos lanzando una campaña de salud preventiva enfocada en la detección temprana de enfermedades. Esta campaña incluirá una serie de actividades, como jornadas de vacunación, chequeos médicos gratuitos, y talleres de educación sobre hábitos saludables. Invitamos a todos los miembros de la comunidad a participar en estas actividades y a tomar medidas proactivas para proteger su salud y la de sus seres queridos."
+        },
+        {
+            "userId": 1,
+            "id": 7,
+            "title": "Encuentro deportivo para la integración social",
+            "fechaPublicacion": "2024-08-05",
+            "descripcion": "Organizamos un encuentro deportivo con el objetivo de promover la integración social a través del deporte.",
+            "body": "El deporte es una herramienta poderosa para la integración social, y con esto en mente, estamos organizando un encuentro deportivo abierto a todos los miembros de la comunidad. Este evento incluirá una variedad de actividades deportivas, desde fútbol y baloncesto hasta juegos recreativos, diseñados para personas de todas las edades y habilidades. Es una excelente oportunidad para conocer a otros miembros de la comunidad, promover la convivencia y disfrutar de un día lleno de diversión y actividad física."
+        },
+        {
+            "userId": 1,
+            "id": 8,
+            "title": "Charla sobre el impacto del cambio climático",
+            "fechaPublicacion": "2024-08-02",
+            "descripcion": "Lo invitamos a una charla educativa sobre el impacto del cambio climático en nuestra región.",
+            "body": "El cambio climático es un desafío global que también tiene un impacto significativo en nuestra región. Para educar y concienciar a la comunidad sobre este tema, estamos organizando una charla educativa en la que expertos en medio ambiente compartirán sus conocimientos sobre los efectos del cambio climático, las medidas que podemos tomar para mitigarlo, y cómo podemos adaptarnos a sus consecuencias. Esta charla es una excelente oportunidad para aprender y participar en discusiones cruciales para el futuro de nuestro entorno."
+        },
+        {
+            "userId": 1,
+            "id": 9,
+            "title": "Feria de empleo y oportunidades laborales",
+            "fechaPublicacion": "2024-07-31",
+            "descripcion": "Asista a nuestra feria de empleo donde diversas empresas ofrecerán oportunidades laborales.",
+            "body": "Si está buscando nuevas oportunidades laborales o desea explorar diferentes opciones de carrera, lo invitamos a asistir a nuestra feria de empleo. En este evento, diversas empresas y organizaciones locales estarán presentes para ofrecer información sobre vacantes y procesos de contratación. Además, habrá talleres sobre cómo mejorar su currículum, técnicas de entrevistas, y estrategias de búsqueda de empleo. No pierda esta oportunidad de hacer conexiones valiosas y avanzar en su carrera profesional."
+        },
+        {
+            "userId": 1,
+            "id": 10,
+            "title": "Celebración del Día Internacional de la Paz",
+            "fechaPublicacion": "2024-07-28",
+            "descripcion": "Únase a nosotros en la celebración del Día Internacional de la Paz.",
+            "body": "El Día Internacional de la Paz es una ocasión especial para reflexionar sobre la importancia de la paz en nuestras vidas y en el mundo. Este año, organizamos una celebración que incluirá actividades culturales, talleres educativos, y conferencias que promueven la paz y la convivencia en nuestra comunidad. Invitamos a todos a unirse a nosotros en este evento, que no solo celebra la paz, sino que también busca inspirar acciones que contribuyan a un futuro más armonioso para todos."
+        }
+    ],
+     "post_matricula":[
+        {
+          "id": 1,
+          "title": "Proceso de Inscripción",
+          "body": "Descripción completa del proceso de inscripción para nuevos estudiantes, incluyendo los pasos a seguir, los documentos necesarios y las fechas límite. Este proceso asegura que los estudiantes se registren correctamente y completen todos los requisitos para comenzar su educación en la institución.",
+          "href": "https://twitch.tv/morelodev"
+        },
+        {
+          "id": 2,
+          "title": "Documentación Requerida",
+          "body": "Lista detallada de toda la documentación necesaria para completar la matrícula en la institución. Incluye documentos personales, certificados académicos previos, y cualquier otro requisito específico que los estudiantes deben presentar para ser admitidos.",
+          "href": "https://twitch.tv/morelodev"
+        },
+        {
+          "id": 3,
+          "title": "Fechas y Plazos de Matrícula",
+          "body": "Información sobre las fechas importantes y los plazos para la matrícula, incluyendo los periodos de inscripción, fechas de cierre y plazos para presentar documentación. Esta sección ayuda a los estudiantes y padres a planificar y cumplir con los tiempos establecidos para asegurar un proceso de matrícula sin contratiempos.",
+          "href": "https://twitch.tv/morelodev"
+        }
+      ]
+      
+}

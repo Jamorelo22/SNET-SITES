@@ -10,10 +10,12 @@
     .button{
         @apply bg-red-700
         text-white
+        border-2
         block 
-        w-max
-        py-4 
-        px-12 
+        w-[110px]
+        py-3
+        mr-3
+        px-3 
         rounded-full
     }
 
@@ -31,6 +33,24 @@
         font-bold
         hover:text-orange-400 
         transition-all duration-300
+    }
+
+    .title{
+        @apply 
+        text-gray-900
+        text-4xl 
+        font-bold 
+        text-center 
+        my-8
+    }
+
+    .parrafo{
+        @apply 
+        text-gray-700
+        text-lg 
+        font-normal 
+        text-center 
+        my-8
     }
 
 }

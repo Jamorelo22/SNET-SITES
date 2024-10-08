@@ -1,0 +1,58 @@
+---
+const response = await fetch("http://localhost:3000/data_matriculas");
+const DATA = await response.json();
+
+---
+
+<div class="flex  items-center px-2 md:px-10 pt-28">
+  <div class="w-full md:w-1/2 content-center mx-auto max-w-2xl hidden md:block">
+    <img
+      class="rounded-3xl mb-10 shadow-2xl"
+      src="https://ieenormalsuperiormm.edu.co/wp-content/uploads/2024/02/IEE-MAGDALENA-MEDIO-48.jpg"
+      alt="IEE Magdalena Medio"
+    />
+  </div>
+
+  <div class="mx-auto max-w-2xl lg:px-8">
+    <div class="mx-auto max-w-2xl lg:mx-0">
+      <h2
+        class="text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl"
+      >
+        Bienvenido a nuestra Institución
+      </h2>
+      <br />
+      <p class="mt-2 text-lg text- text-gray-600">
+        Nos consideramos una gran familia educativa comprometida con el
+        desarrollo de cada uno de nuestros estudiantes y con su éxito académico
+        y personal. Creemos en la participación y corresponsabilidad como
+        pilares fundamentales para lograr una formación sólida y enriquecedora.
+        Por eso, trabajamos en estrecha colaboración con nuestros directivos,
+        docentes, padres de familia, estudiantes y personal administrativo para
+        garantizar una educación de calidad.
+      </p>
+    </div>
+
+    <div class="mx-auto md:pt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+      <ul class="pb-0 md:p-4">
+        {
+          DATA.map((post:any) => (
+            <li class="hover-option">
+              <a href={post.link}>
+                <i class="fa-solid fa-check" />
+                {post.name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <a
+      href="/Matricula"
+        class="py-1.5 px-4  font-bold rounded-full border- shadow-md shadow-black  border-4  bg-red-700 text-white hover:bg-red-950  items-center justify-center flex w-fit"
+        type="button"
+      >
+        
+        VER MÁS
+    </a>
+    </div>
+  </div>
+</div>

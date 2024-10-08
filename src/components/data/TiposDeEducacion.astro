@@ -1,0 +1,16 @@
+---
+import Card from "../Card.astro";
+const response = await fetch("http://localhost:3000/data_enlacesInteres");
+const DATA = await response.json();
+
+---
+
+<ol class="md:p-11 place-content-center flex  flex-wrap gap-3">
+  {
+    DATA.map((post: any) => (
+      <li class="">
+        <Card {...post} />
+      </li>
+    ))
+  }
+</ol>
